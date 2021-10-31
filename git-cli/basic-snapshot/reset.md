@@ -12,15 +12,12 @@ git reset
 
 ### Options
 
-*   \-q
+* \-q
+  * Only report errors
 
-    * Only report errors
-
-
-
-    > :bulb: **Tip**
-    >
-    > Can override by configuration variable `reset.quite` option `--quite` or `--no-quite`
+> :bulb: **Tip**
+>
+> Can override by configuration variable `reset.quite` option `--quite` or `--no-quite`
 
 ### Commands
 
@@ -42,6 +39,12 @@ git reset <mode> <commit>
 >
 > \<commit> is SHA commit code of git log
 
+> :pencil: **Example**
+>
+> ```bash
+> git reset --hard
+> ```
+
 * Remove current commit to another commit
 
 ```bash
@@ -50,4 +53,10 @@ git reset --hard <commit>
 
 > :notebook\_with\_decorative\_cover: **Note**
 >
-> \<commit> is SHA commit code of git log
+> `<commit>` is SHA commit code of git log
+
+> :pencil: **Example**
+>
+> ```
+> git restore --hard 5c79a36
+> ```

@@ -19,14 +19,15 @@ git
 
 ### Commands
 
-*   Check version
+* Check version
 
-    ```bash
-    git --version
-    ```
-*   Show document
+```bash
+git --version
+```
 
-    ```bash
-    git --help
-    ```
+* Show git reference
+
+```bash
+git --help
+```
 

@@ -21,19 +21,32 @@ git push
 
 ### Commands
 
-*   Push new branch
+* Push new branch
 
-    ```bash
-    git push -u <remote> <branch>
-    ```
+```bash
+git push -u <remote> <branch>
+```
 
-    > :notebook\_with\_decorative\_cover: **Note**
-    >
-    > `<remote>` is your remote name that you have been add.
-    >
-    > `<branch>` is your branch name you want to push.
-*   Push tracked branch
+> :notebook\_with\_decorative\_cover: **Note**
+>
+> `<remote>` is your remote name that you have been add.
+>
+> `<branch>` is your branch name you want to push.
 
-    ```bash
-    git push
-    ```
+> :pencil: **Example**
+>
+> ```
+> git push -u origin main
+> ```
+
+* Push tracked branch
+
+```bash
+git push
+```
+
+* Push all branch
+
+```
+git push -a
+```

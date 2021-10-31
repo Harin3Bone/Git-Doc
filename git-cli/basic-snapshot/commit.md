@@ -7,7 +7,7 @@ description: Record changes to the repository
 ### Synopsis
 
 ```bash
-git commit -m <message>
+git commit
 ```
 
 ### Options
@@ -24,20 +24,20 @@ git commit -m <message>
   * Show the branch and tracking info even in the short-format.
 * \--long&#x20;
   * Display the output in long format.
-*   \--author=\<author>
+* \--author=\<author>
+  * Override commit author.
 
-    * Override commit author.
+> :notebook\_with\_decorative\_cover: **Note**
+>
+> Default value is your authenticate username.
 
-    > :notebook\_with\_decorative\_cover: **Note**
-    >
-    > Default value is your authenticate username.
-*   \--date=\<date>
+* \--date=\<date>
+  * Override commit date
 
-    * Override commit date
+> :notebook\_with\_decorative\_cover: **Note**
+>
+> Default value is current date
 
-    > :notebook\_with\_decorative\_cover: **Note**
-    >
-    > Default value is current date
 * \-m \<message>
   * Add commit message to you commit
 * \-q
@@ -46,9 +46,15 @@ git commit -m <message>
 ### Commands
 
 ```bash
-git commit -m "Initial commit"
+git commit -m <message>
 ```
 
 > :notebook\_with\_decorative\_cover: **Note**
 >
 > `<message>` is your commit message.
+
+> :pencil: **Example**&#x20;
+>
+> ```
+> git commit -m "Initial commit"
+> ```

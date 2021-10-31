@@ -16,13 +16,12 @@ git rm
   * Force remove files even have an error and never show warning.
 * \-r&#x20;
   * Allow to recursive removal when a leading directory name is given.
-*   \-q
+* \-q
+  * This option suppresses that output.
 
-    * This option suppresses that output.
-
-    > :notebook\_with\_decorative\_cover: **Note**
-    >
-    > Default value of this command always `-q`
+> :notebook\_with\_decorative\_cover: **Note**
+>
+> Default value of this command always `-q`
 
 ### Commands
 
@@ -30,3 +29,12 @@ git rm
 git rm <files>
 ```
 
+> :notebook\_with\_decorative\_cover: **Note**
+>
+> `<files>` is a file you want to remove
+
+> ****:pencil:** Example**
+>
+> ```
+> git rm untitled.txt
+> ```

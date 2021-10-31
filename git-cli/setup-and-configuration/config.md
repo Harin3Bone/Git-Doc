@@ -23,18 +23,18 @@ git config
 
 ### Command
 
-*   List all configuration variables
+* List all configuration variables
 
-    ```bash
-    git config --list
-    ```
-*   List configuration variables by scope in group
+```bash
+git config --list
+```
 
-    ```bash
-    git config <scope> --list
-    ```
+* List configuration variables by scope in group
 
-    > :notebook\_with\_decorative\_cover: **Note**
-    >
-    > `<scope>` are have 3 variable include `--system`, `--global` and `--local`
-*
+```bash
+git config <scope> --list
+```
+
+> :notebook\_with\_decorative\_cover: **Note**
+>
+> `<scope>` are have 3 variable include `--system`, `--global` and `--local`

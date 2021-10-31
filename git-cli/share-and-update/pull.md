@@ -19,17 +19,18 @@ git pull
 
 ### Commands
 
-*   Pull with specific branch
+* Pull with specific branch
 
-    ```bash
-    git pull <branch>
-    ```
+```bash
+git pull <branch>
+```
 
-    > :notebook\_with\_decorative\_cover: **Note**
-    >
-    > `<branch>` is your branch you want to pull.
-*   Pull  current branch
+> :notebook\_with\_decorative\_cover: **Note**
+>
+> `<branch>` is your branch you want to pull.
 
-    ```bash
-    git pull
-    ```
+* Pull  current branch
+
+```bash
+git pull
+```
