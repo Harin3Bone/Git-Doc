@@ -10,6 +10,7 @@
     * [add](git-cli/basic-snapshot/add.md)
     * [status](git-cli/basic-snapshot/status.md)
     * [restore](git-cli/basic-snapshot/restore.md)
+    * [clean](git-cli/basic-snapshot/clean.md)
     * [reset](git-cli/basic-snapshot/reset.md)
     * [commit](git-cli/basic-snapshot/commit.md)
     * [rm](git-cli/basic-snapshot/rm.md)
