@@ -11,7 +11,7 @@ description: This is my configuration of git
     * Setup
 
     ```bash
-    git config --global alias.tree=log --graph --decorate --pretty='%C(yellow)%h %C(#D502FF)%d %C(cyan)%cs %C(#FF0202)<%an> %C(green)%s' --abbrev-commit --all
+    git config --global alias.tree "log --graph --decorate --pretty='%C(yellow)%h %C(#D502FF)%d %C(cyan)%cs %C(#FF0202)<%an> %C(green)%s' --abbrev-commit --all"
     ```
 
     * Command
@@ -26,7 +26,7 @@ description: This is my configuration of git
     * Setup
 
     ```bash
-    git config --global alias.branchs=branch -a
+    git config --global alias.branchs "branch -a"
     ```
 
     * Command
@@ -39,7 +39,7 @@ description: This is my configuration of git
     * Setup
 
     ```bash
-    git config --global alias.stat=status
+    git config --global alias.stat "status"
     ```
 
     * Command
@@ -52,7 +52,7 @@ description: This is my configuration of git
     * Setup
 
     ```bash
-    git config --global alias.adds=add .
+    git config --global alias.adds "add ."
     ```
 
     * Command
@@ -65,7 +65,7 @@ description: This is my configuration of git
     * Setup
 
     ```bash
-    git config --global alias.restores=restore .
+    git config --global alias.restores "restore ."
     ```
 
     * Command
@@ -78,7 +78,7 @@ description: This is my configuration of git
     * Setup
 
     ```bash
-    git config --global alias.backup=!git stash --include-untracked --keep-index
+    git config --global alias.backup "!git stash --include-untracked --keep-index"
     ```
 
     * Command
@@ -95,7 +95,7 @@ description: This is my configuration of git
     * Setup
 
     ```bash
-    git config --global alias.new=checkout -b
+    git config --global alias.new "checkout -b"
     ```
 
     * Command
@@ -112,7 +112,7 @@ description: This is my configuration of git
     * Setup
 
     ```bash
-    git config --global alias.setting=config --global --list
+    git config --global alias.setting "config --global --list"
     ```
 
     * Command
