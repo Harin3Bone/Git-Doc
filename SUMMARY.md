@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Git](README.md)
 * [GUI](git-gui.md)
 * [CLI](git-cli/README.md)
   * [Setup & Configuration](git-cli/setup-and-configuration/README.md)
