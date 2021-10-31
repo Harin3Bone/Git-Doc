@@ -10,10 +10,14 @@ description: List create or delete branches
 
 ### Commands
 
-* List all branches
+* List all branch
 
 ```
 git branch
 ```
 
->
+* List all branches and remotes
+
+```
+git branch --all
+```

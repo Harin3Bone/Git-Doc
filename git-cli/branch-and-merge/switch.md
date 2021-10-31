@@ -1,2 +1,7 @@
 # switch
 
+### Synopsis
+
+### Options
+
+### Commands

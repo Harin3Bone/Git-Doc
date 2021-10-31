@@ -21,9 +21,7 @@ git remote
 
 ### Commands
 
-*   add
-
-    Add a remote named `<name>` for the repository at `<url>`&#x20;
+* Add a remote named `<name>` for the repository at `<url>`&#x20;
 
 ```bash
 git remote add <name> <url>
@@ -35,9 +33,7 @@ git remote add <name> <url>
 >
 > `<url>` is git repository url
 
-*   rename
-
-    Rename remote named from **old** to **new**
+* Rename remote named from **old** to **new**
 
 ```bash
 git remote rename <old> <new>
@@ -49,9 +45,7 @@ git remote rename <old> <new>
 >
 > `<new>` your new remote name want to change
 
-*   remove
-
-    Remove your remote
+* Remove your remote
 
 ```bash
 git remote remove <name>
@@ -61,9 +55,7 @@ git remote remove <name>
 >
 > `<name>` your remote name that you want to remove
 
-*   get-url
-
-    Show Git url of remote name (Use for check git url of your remote)
+* Show Git url of remote name (Use for check git url of your remote)
 
 ```bash
 git remote get-url <name>
@@ -73,9 +65,7 @@ git remote get-url <name>
 >
 > `<name>` is your remote name that you want to check git url.
 
-*   set-url
-
-    Set new git url to you remote
+* Set new git url to you remote
 
 ```bash
 git remote set-url <name> <new-url> <old-url>
@@ -89,11 +79,8 @@ git remote set-url <name> <new-url> <old-url>
 >
 > `<old-url>` your old url of remote
 
-*   prune
-
-    Delete stale reference associated with `<name>`
+* Delete stale reference associated with `<name>`
 
 ```bash
 git remote prune
 ```
-
