@@ -8,6 +8,8 @@ description: Introduce about Graphical User Interface (GUI) of Git
 
 **Git Graphical User Interface (GUI)** clients is a tools that provide alternative visualization for Git. As you know for beginner developer they want to use Git but it also has a high learning curve, To make it easier for new developer, They have created Git Graphical User Interface clients for various platform.
 
+
+
 ### My recommendation
 
 #### **1. Sourcetree**: A free Git client for Windows and Mac
@@ -93,3 +95,13 @@ Sourcetree is a free Git desktop client. It simplifies how you interact with you
 #### License: Proprietary
 
 #### [Download](https://git-fork.com)
+
+####
+
+### Alternative
+
+**Visual Studio Code Plugin**
+
+1. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+2. [Git History ](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+3. [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
