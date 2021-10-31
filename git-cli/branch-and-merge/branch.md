@@ -12,6 +12,8 @@ git branch
 
 ### Options
 
+* \-a
+  * List all branches and remotes
 * \-f
   * Force to do command.
 * \-d
@@ -66,7 +68,7 @@ git branch
 * List all branches and remotes
 
 ```
-git branch --all
+git branch -a
 ```
 
 * Create new branch
