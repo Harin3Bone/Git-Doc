@@ -7,7 +7,7 @@ description: Record changes to the repository
 ### Synopsis
 
 ```bash
-git commit
+git commit -m <message>
 ```
 
 ### Options
@@ -46,7 +46,7 @@ git commit
 ### Commands
 
 ```bash
-git commit -m <message>
+git commit -m "Initial commit"
 ```
 
 > :notebook\_with\_decorative\_cover: **Note**
