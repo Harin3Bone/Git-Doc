@@ -129,11 +129,18 @@ description: This is my configuration of git
     ```
     git config --global alias.fusion "merge --no-ff --commit"
     ```
-*   Command
+
+    * Command
 
     ```
     git fusion <branch> -m <message>
     ```
+
+> :notebook\_with\_decorative\_cover: **Note**
+>
+> `<branch>` is a new branch name.
+>
+> `<message>` is a message
 
 ### Status
 
