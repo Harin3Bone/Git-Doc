@@ -121,6 +121,20 @@ description: This is my configuration of git
     git setting
     ```
 
+
+*   Always merge with create commit
+
+    * Setup
+
+    ```
+    git config --global alias.fusion "merge --no-ff --commit"
+    ```
+*   Command
+
+    ```
+    git fusion <branch> -m <message>
+    ```
+
 ### Status
 
 *   Change color
