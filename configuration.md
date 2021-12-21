@@ -144,15 +144,25 @@ description: This is my configuration of git
 
 ### Status
 
-*   Change color
+* Change color
 
-    ```bash
-    git config --global color.status.changed yellow
-    git config --global color.status.untracked magenta
-    git config --global color.status.added green
-    git config --global color.status.deleted red
-    git config --global color.status.unmerged magenta
-    git config --global color.status.branch cyan
-    git config --global color.status.header white
-    ```
+```
+git config --global color.status.changed yellow
+git config --global color.status.untracked magenta
+git config --global color.status.added green
+git config --global color.status.deleted red
+git config --global color.status.unmerged magenta
+git config --global color.status.branch cyan
+git config --global color.status.header white
+```
+
+### Branch
+
+* Change color
+
+```
+git config --global color.branch.current green
+git config --global color.branch.local yellow
+git config --global color.branch.remote cyan
+```
 
