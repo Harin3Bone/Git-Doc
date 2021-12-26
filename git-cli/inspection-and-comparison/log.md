@@ -58,6 +58,12 @@ git log
 >
 > `<pattern>` is regex of author you want to find
 
+* \--merges
+  * Print only `merge` commit
+* \--dense
+  * Only the selected commits are shown, plus some to have a meaningful history
+* \--sparse
+  * All commits in the simplified history are shown
 * \--all
   * Show log of all branches and remotes and stash
 
