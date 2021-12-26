@@ -142,6 +142,10 @@ description: This is my configuration of git
 >
 > `<message>` is a message
 
+* Track all branch current commit
+  * Setup
+  * Command
+
 ### Status
 
 * Change color
