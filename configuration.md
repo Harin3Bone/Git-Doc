@@ -144,7 +144,13 @@ description: This is my configuration of git
 
 * Track all branch current commit
   * Setup
+  ```
+  git config --global alias.track "branch --abbrev --all --list --format='%(HEAD) %(color:magenta)%(refname:lstrip=2) %(color:yellow)%(objectname:short=7) %(color:cyan)%(creatordate:short) %(color:red)%(authorname) %(color:green)%(contents:subject)'"
+  ```
   * Command
+  ```
+  git track
+  ```
 
 ### Status
 
