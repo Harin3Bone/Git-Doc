@@ -132,11 +132,11 @@ description: This is my configuration of git
     git fusion <branch> -m <message>
     ```
 
-   > :notebook\_with\_decorative\_cover: **Note**
-   >
-   > `<branch>` is a new branch name.
-   >
-   > `<message>` is a message
+    > :notebook\_with\_decorative\_cover: **Note**
+    >
+    > `<branch>` is a new branch name.
+    >
+    > `<message>` is a message
 
 *   Track all branch current commit
 
