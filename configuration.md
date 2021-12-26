@@ -19,8 +19,6 @@ description: This is my configuration of git
     ```bash
     git tree
     ```
-
-
 *   Display all branches
 
     * Setup
@@ -104,7 +102,7 @@ description: This is my configuration of git
     git new <branch>
     ```
 
-    > ****:notebook\_with\_decorative\_cover: **Note**
+    > :notebook\_with\_decorative\_cover: **Note**
     >
     > `<branch>` is a new branch name.
 *   Display all global configuration
@@ -120,8 +118,6 @@ description: This is my configuration of git
     ```bash
     git setting
     ```
-
-
 *   Always merge with create commit
 
     * Setup
@@ -142,15 +138,19 @@ description: This is my configuration of git
 >
 > `<message>` is a message
 
-* Track all branch current commit
-  * Setup
-  ```
-  git config --global alias.track "branch --abbrev --all --list --format='%(HEAD) %(color:magenta)%(refname:lstrip=2) %(color:yellow)%(objectname:short=7) %(color:cyan)%(creatordate:short) %(color:red)%(authorname) %(color:green)%(contents:subject)'"
-  ```
-  * Command
-  ```
-  git track
-  ```
+*   Track all branch current commit
+
+    * Setup
+
+    ```
+    git config --global alias.track "branch --abbrev --all --list --format='%(HEAD) %(color:magenta)%(refname:lstrip=2) %(color:yellow)%(objectname:short=7) %(color:cyan)%(creatordate:short) %(color:red)%(authorname) %(color:green)%(contents:subject)'"
+    ```
+
+    * Command
+
+    ```
+    git track
+    ```
 
 ### Status
 
@@ -175,4 +175,3 @@ git config --global color.branch.current green
 git config --global color.branch.local yellow
 git config --global color.branch.remote cyan
 ```
-
